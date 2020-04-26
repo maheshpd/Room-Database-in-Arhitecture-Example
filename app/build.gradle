@@ -31,4 +31,17 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    //androidx material
+    implementation 'com.google.android.material:material:1.1.0'
+
+    //androidx cardview
+    implementation "androidx.cardview:cardview:1.0.0"
+
+    def room_version = "2.2.5"
+    def lifecycle_version = "2.2.0"
+
+    implementation "androidx.room:room-runtime:$room_version"
+    // ViewModel
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
 }
